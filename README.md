@@ -13,8 +13,9 @@
 ![Sprite v2](https://img.shields.io/badge/Sprite-v2-ef6548?style=flat-square)
 ![9 animation states](https://img.shields.io/badge/States-9-f2c94c?style=flat-square)
 ![16 look directions](https://img.shields.io/badge/Look_directions-16-7189bf?style=flat-square)
+[![Petdex Live](https://img.shields.io/badge/Petdex-Live-16a34a?style=flat-square)](https://petdex.dev/pets/bottle-cap-tom)
 
-[**下载宠物包 ↗**](https://github.com/LJjayyy/bottle-cap-tom/releases/latest/download/bottle-cap-tom.zip) · [安装](#安装) · [互动说明](#互动说明)
+[**在 Petdex 安装 ↗**](https://petdex.dev/pets/bottle-cap-tom) · [下载 ZIP](https://github.com/LJjayyy/bottle-cap-tom/releases/latest/download/bottle-cap-tom.zip) · [安装说明](#安装) · [互动说明](#互动说明)
 
 </div>
 
@@ -43,6 +44,18 @@
 手绘质感的蓝灰汤姆猫，戴着一顶红色可乐瓶盖。保留圆滚滚的轮廓、奶油色口鼻和熟悉的委屈眼神，让摸鱼和装忙都看得清楚。
 
 ## 安装
+
+### 方式一：通过 Petdex 安装（推荐）
+
+瓶盖汤姆已通过 Petdex 审核，正式上架为 **No. 5143**。打开 [Petdex 宠物主页](https://petdex.dev/pets/bottle-cap-tom)，按页面指引安装；已安装 Node.js 的用户也可以在终端运行：
+
+```bash
+npx petdex@latest install bottle-cap-tom
+```
+
+安装完成后，在 Codex 的宠物设置中刷新并选择「瓶盖汤姆」，输入 `/pet` 显示宠物。具体菜单名称以客户端为准。
+
+### 方式二：手动下载 ZIP
 
 1. 下载 [最新宠物包 `bottle-cap-tom.zip`](https://github.com/LJjayyy/bottle-cap-tom/releases/latest/download/bottle-cap-tom.zip)。
 2. 解压到 `~/.codex/pets/bottle-cap-tom/`，确保文件结构如下：
@@ -109,7 +122,7 @@ unzip -o "$HOME/Downloads/bottle-cap-tom.zip" \
 
 `assets/` 是 README 展示用的 GIF；安装宠物只需要根目录中的两个文件。
 
-本仓库收录的是更新02素材：新版摸鱼待机、被发现的悬停反应，以及修正后的工作姿势。Petdex 投稿目前待审核，审核通过后再补充安装入口。
+本仓库收录的是更新02素材：新版摸鱼待机、被发现的悬停反应，以及修正后的工作姿势。已在 [Petdex 正式上架](https://petdex.dev/pets/bottle-cap-tom)，可从 Petdex 安装，也可以使用本仓库的 Release 安装包。
 
 ## 创作说明
 
